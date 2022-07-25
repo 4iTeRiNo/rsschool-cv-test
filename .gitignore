@@ -9,4 +9,5 @@
 .history/
 *.app
 .snapshots/*
-dist									
+.dist
+.gitignore
