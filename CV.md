@@ -1,7 +1,7 @@
 # Zubkov Igor Konstantinovich
 Hello, i'am technical specialist 1c program and online sales register (> 1year). I want to learn a profession of a junior JavaScript developer. I like technology and travel.
 
-![resume.png](images/resume.jpg) 
+![resume.png](images/image.png) 
 
 ## Summary about me :
 - 
