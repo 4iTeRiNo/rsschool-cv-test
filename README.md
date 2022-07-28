@@ -1,1 +1,1 @@
-Hello. I'm Igor. This is my first README. I'm student
+deploy: https://4iterino.github.io/rsschool-cv/CV
