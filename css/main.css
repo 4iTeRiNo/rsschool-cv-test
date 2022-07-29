@@ -17,10 +17,9 @@
 
 /* FONTS LOAD SECTION */
 
-@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
-@font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
-@font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
-@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; }
+@font-face { src: url("/fonts/roboto/roboto-v29-cyrillic-300.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
+@font-face { src: url("/fonts/roboto/roboto-v29-cyrillic-500.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
+@font-face { src: url("/fonts/roboto/roboto-v29-cyrillic-700.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
 
 /* GENERAL CSS SETTINGS */
 
@@ -57,9 +56,41 @@ body {
 	background-color: #666;
 	width: 100%;
 	height: 300px;
-}
-.User_name{
+	display: flex;
 	text-align: center;
+	justify-content: center;
+}
+.logo_link{
 	padding-top: 50px;
 }
+.logo_link span{
+	display: block;
+}
+.nav .userBx{
+	position: relative;
+	width: 100px;
+	height: 100px;
+}
+.nav .userBx .imgBX{
+	position: relative;
+	min-width: 200px;
+	height: 200px;
+	background: #000;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid #fff;
+}
+.nav .userBx .imgBX img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+
+
+
 
