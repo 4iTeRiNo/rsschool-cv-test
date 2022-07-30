@@ -52,13 +52,16 @@ body {
 	color: var(--accent);
 	font-weight: bold;
 }
-.nav{
+
+	/* USER BLOCK */
+.user{
 	background-color: #666;
 	width: 100%;
 	height: 300px;
 	display: flex;
 	text-align: center;
 	justify-content: center;
+	margin-bottom: 30px;
 }
 .logo_link{
 	padding-top: 50px;
@@ -66,30 +69,78 @@ body {
 .logo_link span{
 	display: block;
 }
-.nav .userBx{
-	position: relative;
-	width: 100px;
+.user .userBx{
+	position: absolute;
+	width: 200px;
 	height: 100px;
+	padding-top: 195px;
 }
-.nav .userBx .imgBX{
+.user .userBx .imgBx{
 	position: relative;
 	min-width: 200px;
 	height: 200px;
-	background: #000;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 3px solid #fff;
+	border: 2px solid #fff;
 }
-.nav .userBx .imgBX img{
+.user .userBx .imgBX img{
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-
 }
 
+	/* NAV */
+	
+.row{
+		background: #fff;
+		height: 350px;
+		margin-bottom: 30px;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+}
+.nav_social{
+	position: absolute;
+	padding-top: 80px;
+}
+.image-svg{
+	width: 30px;
+	min-width: 30px;
+	margin-bottom:50px;
+	margin-right: 6.5px;
+}
+.image-svg:last-child{
+	margin-left: 6.5px;
+}
+.row .nav_disc {
+	color: #666;
+	padding-top: 150px;
+	font-size: 20px;
+	
+}
+/* BUTTON */
+.button{
+	outline: none;
+	border: none;
+	background-color:#03A9F4;
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	position: relative;
+	letter-spacing: .25px;
+	padding: 13px 20px;
+	width: 200px;
+	/* height: 50px; */
+	font-size: 15px;
+
+}
+.button:last-child{
+	margin-left: 50px; ;
+}
 
 
 
