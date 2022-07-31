@@ -1,18 +1,17 @@
 # Zubkov Igor Konstantinovich(4iTeRiNo)
-Hello, i'am technical specialist 1c program and online sales register (> 1year). I want to learn a profession of a junior JavaScript developer and working a project cool and to be
-closer community of developers.
+Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technical specialist (>1 year) seeking to learn the specialty of a junior JavaScript developer, run great projects and join the developers community. I'm responsible for my job and I strictly follow the given directions.
 
 ![resume.png](images/image.png) 
 
 ## Experience :
-- [ООО "Сирис"](https://mysiris.ru/) (Сирис,LLC) - online automatization business company; 
-1. I came to this sector from another area and after a couple of months I worked independently;
-2. Strengthened basic computer knowledge at the advanced user level;
-3. Optimized workflows, which made it possible to speed up the solution of many tasks;
+- [ООО "Сирис"](https://mysiris.ru/) (Сирис,LLC) - online business automation company; 
+1.	I came to this sector from another area and after a couple of months I worked independently;
+2.	Strengthened basic computer knowledge at the advanced user level;
+3.	I optimized my workflow to speed up task solutions;
 
 ## Education :
-- Completed higher education;
-- Rsschool courses
+-	University degree;
+- Rsschool courses;
 
 ## Technologies :
 - HTML5
@@ -21,8 +20,8 @@ closer community of developers.
 
 ## Soft skills :
 - Stress resistance;
-- Purposefulness;
-- Ability to work in a team;
+- Motivation;
+- A team player;
 - Communication skills;
 
 ## Hard skills : 
@@ -37,6 +36,6 @@ closer community of developers.
 - **Phone** `+79831013668`;
 - **Telegram** `[@Igor0515](https//t.me/Igor0515)`;
 - **GitHub** `[4iTeRiNo](https://github.com/4iTeRiNo)`;
-- **Facebook** `[Игорь Зубков]()`;
-- **Email** ` `;
-- **discord** `Igor (4iTeRiNo)`;
+- **Facebook** `[Игорь Зубков](https://www.facebook.com/profile.php?id=100010166471923)`;
+- **Email** `https://e.mail.ru/compose/`;
+- **discord** `Igor(4iTeRiNo)`;
