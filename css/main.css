@@ -98,13 +98,13 @@ body {
 		background: #fff;
 		height: 350px;
 		margin-bottom: 30px;
-		display: inline-block;
+		display: inline;
 		text-align: center;
 		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .nav_social{
 	display: inline-block;
-	position: absolute;
+	position: relative;
 	padding-top: 80px;
 }
 .image-svg{
@@ -117,15 +117,15 @@ body {
 	margin-left: 6.5px;
 }
 .nav .nav_disc {
+	position: relative;
 	color: #666;
-	padding-top: 150px;
 	font-size: 20px;
+	margin-bottom: 50px;
 	
 }
 /* BUTTON */
 .nav_submit{
-	bottom: -30px;
-	position: relative;
+	bottom: 0px;
 }
 .button{
 	outline: none;
@@ -135,10 +135,10 @@ body {
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
-	position: relative;
 	letter-spacing: .25px;
 	padding: 13px 20px;
 	width: 200px;
+	position: relative;
 	font-size: 15px;
 }
 
@@ -146,16 +146,18 @@ body {
 	margin-left: 50px; ;
 }
 
-/* EXPERIENCE */
-
-.experience{
-	display: flex;
-	text-align: center;
+/* SUMMARY */
+.summary{
+	width: 257px;
 }
-.experience_left{
-	color: #666;
-	border-radius: var(--dark-div) 1px solid;
+.block-elem__desk{
+	
 }
 
+.block-elem__hard-skills{
+	/* display: flex; */
+	min-width: 30px;
+	width: 70px;
+}
 
 

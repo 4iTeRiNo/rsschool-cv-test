@@ -12,11 +12,31 @@
 
 /* md <= Large (lg) */
 @media (max-width : 992px) {
+	.nav_disc p{
+		font-size: 15px;
 
+	}
 }
 
 /* sm <= Medium (md) */
 @media (max-width : 768px) {
+ .nav_disc p{
+		margin-bottom: 0px;
+		font-size: 15px;
+	}
+ .nav_social{
+		margin-top: 5px;
+	}
+	.image-svg{
+		margin-bottom: 20px;
+	}
+	.button{
+		font-size: 10px;
+		padding: 10px 10px;
+		width: 150px;
+	}
+
+
 
 }
 
