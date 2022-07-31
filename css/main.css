@@ -2,7 +2,8 @@
 
 :root {
 	--accent: #FFC905;
-	--text: #fff;
+	--text: #000;
+	--dark-div: 			#000;
 	--regular-text: 10px;
 	--lineheight: 1.65;
 	--userfont: roboto-st, sans-serif;
@@ -61,7 +62,7 @@ body {
 	display: flex;
 	text-align: center;
 	justify-content: center;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .logo_link{
 	padding-top: 50px;
@@ -82,27 +83,27 @@ body {
 	border-radius: 50%;
 	overflow: hidden;
 	border: 2px solid #fff;
+	
 }
-.user .userBx .imgBX img{
-	position: absolute;
-	top: 0;
-	left: 0;
+.user .userBx .imgBx img {
+	position: relative;
+	margin-top: -40px;
 	width: 100%;
-	height: 100%;
 	object-fit: cover;
 }
 
 	/* NAV */
 	
-.row{
+.nav{
 		background: #fff;
 		height: 350px;
 		margin-bottom: 30px;
-		display: flex;
+		display: inline-block;
 		text-align: center;
-		justify-content: center;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 .nav_social{
+	display: inline-block;
 	position: absolute;
 	padding-top: 80px;
 }
@@ -115,13 +116,17 @@ body {
 .image-svg:last-child{
 	margin-left: 6.5px;
 }
-.row .nav_disc {
+.nav .nav_disc {
 	color: #666;
 	padding-top: 150px;
 	font-size: 20px;
 	
 }
 /* BUTTON */
+.nav_submit{
+	bottom: -30px;
+	position: relative;
+}
 .button{
 	outline: none;
 	border: none;
@@ -134,14 +139,23 @@ body {
 	letter-spacing: .25px;
 	padding: 13px 20px;
 	width: 200px;
-	/* height: 50px; */
 	font-size: 15px;
-
 }
+
 .button:last-child{
 	margin-left: 50px; ;
 }
 
+/* EXPERIENCE */
+
+.experience{
+	display: flex;
+	text-align: center;
+}
+.experience_left{
+	color: #666;
+	border-radius: var(--dark-div) 1px solid;
+}
 
 
 
