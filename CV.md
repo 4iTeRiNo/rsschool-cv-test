@@ -2,13 +2,13 @@
 # Zubkov Igor Konstantinovich(4iTeRiNo)
 Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technical specialist (>1 year) seeking to learn the specialty of a junior JavaScript developer, run great projects and join the developers community. I'm responsible for my job and I strictly follow the given directions.
 
-![resume.png](images/image.png);
+![resume.png](images/image.png)
 
 ## Experience :
 - [ООО "Сирис"](https://mysiris.ru/) (Сирис,LLC) - online business automation company; 
-1.	I came to this sector from another area and after a couple of months I worked independently;
-2.	Strengthened basic computer knowledge at the advanced user level;
-3.	I optimized my workflow to speed up task solutions;
+1. I came to this sector from another area and after a couple of months I worked independently;
+2. Strengthened basic computer knowledge at the advanced user level;
+3. I optimized my workflow to speed up task solutions;
 
 ## Education :
 -	University degree;
