@@ -5,10 +5,10 @@ Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technic
 ![resume.png](images/image.png)
 
 ## Experience :
-- [ООО "Сирис"](https://mysiris.ru/) (Сирис,LLC) - online business automation company; 
-1. I came to this sector from another area and after a couple of months I worked independently;
-2. Strengthened basic computer knowledge at the advanced user level;
-3. I optimized my workflow to speed up task solutions;
+* [ООО "Сирис"](https://mysiris.ru/) (Сирис,LLC) - online business automation company; 
+-     I came to this sector from another area and after a couple of months I worked independently;
+-      Strengthened basic computer knowledge at the advanced user level;
+-     I optimized my workflow to speed up task solutions;
 
 ## Education :
 -	University degree;
