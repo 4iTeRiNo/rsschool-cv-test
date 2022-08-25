@@ -5,13 +5,15 @@
 
 // abstract
 @import "abstract/constants";
-@import "abstract/mixins";
+// @import "abstract/mixins";
+
+@import "components/round";
+
 // Layout
 @import "layouts/header";
-@import "layouts/logo";
+// @import "layouts/logo";
 @import "layouts/navigation";
-@import "layouts/columns";
-
+@import "layouts/skills";
 
 // @import "vendors/bootstrap-grid.min";
-@import "vendors/bootstrap.min";
+// @import "vendors/bootstrap.min";

@@ -6,83 +6,65 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="sass/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@200;300;500;700&display=swap" rel="stylesheet">
-
-	<title>Document</title>
+	<title>Zubkov Igor CV</title>
 </head>
 <body>
-	<div class="header">
-			<div class="container">
-				<h1 class="header__disc">Zubkov Igor Konstantinovich <span>Junior Frontend develop(4iTeRiNo)</span></h1>
-			</div>
-			<div class="logo">
-				<div class="logo__round">
+<div class="navigation">
+	<div class="container">
+		<div class="navigation__cosial">
+			<!-- <object class="ico__social" data="/images/SVG/navigation/codewars-svgrepo-com.svg" type="image/svg+xml" ></object>
+			<object class="ico__social" data="/images/SVG/navigation/email-svgrepo-com.svg" type="image/svg+xml" ></object>
+			<object class="ico__social" data="/images/SVG/navigation/facebook-svgrepo-com.svg" type="image/svg+xml" ></object>
+			<object class="ico__social" data="/images/SVG/navigation/github-svgrepo-com.svg" type="image/svg+xml" ></object>
+			<object class="ico__social" data="/images/SVG/navigation/icons8-линкедин-2.svg" type="image/svg+xml" ></object> -->
+			<a href="https://www.codewars.com/users/4iTeRiNo"><img src="/images/SVG/navigation/codewars-svgrepo-com.svg" alt="" class="ico__social"></a>
+			<!-- <a href=""><img src="/images/SVG/navigation/email-svgrepo-com.svg" alt="" class="ico__social"></a> -->
+			<a href="https://www.facebook.com/profile.php?id=100010166471923"><img src="/images/SVG/navigation/facebook-svgrepo-com.svg" alt="" class="ico__social"></a>
+			<a href="https://github.com/4iTeRiNo"><img src="/images/SVG/navigation/github-svgrepo-com.svg" alt="" class="ico__social"></a>
+			<a href=""><img src="/images/SVG/navigation/icons8-линкедин-2.svg" alt="" class="ico__social"></a>
+		</div>
+	</div>
+</div>
+<header class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__title">
+					<h1>Zubkov Igor Konstantinovich <span>Junior Frontend develop(4iTeRiNo)</span></h1>
+					<p>Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technical specialist (>1 year) seeking to learn the specialty of a junior JavaScript developer, run great projects and join the developers community. I'm responsible for my job and I strictly follow the given directions.</p>
+				</div>
+			
+				<div class="header__img">
 					<img src="images/profil_photo (1).jpg" alt="Photo-user">
 				</div>
 			</div>
-	</div>
-	<div class="navigation">
-		<div class="container navigation__container">
-			<div class="navigation__social">
-				<span class="ico ico_social">
-					<a href=""><img src="images/SVG/navigation/icons8-линкедин-2.svg"  class="image-svg"   alt="LinkI"></a>
-					<a href="https://github.com/4iTeRiNo"><img src="images/SVG/navigation/github-svgrepo-com.svg" class="image-svg" alt=""></a>
-					<a href="https://www.facebook.com/profile.php?id=100010166471923"><img src="images/SVG/navigation/facebook-svgrepo-com.svg" class="image-svg" alt=""></a>
-					<a href="https://e.mail.ru/compose/"><img src="images/SVG/navigation/email-svgrepo-com.svg" class="image-svg" alt=""></a>
-					<a href="https://www.codewars.com/users/4iTeRiNo"><img src="images/SVG/navigation/codewars-svgrepo-com.svg" class="image-svg" alt=""></a>
-				</span>
-			</div>
-			<div class="about-me">
-				<p>
-					Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technical specialist (>1 year) seeking to learn the specialty of a junior JavaScript developer, run great projects and join the developers community. I'm responsible for my job and I strictly follow the given directions.
-				</p>
-			</div>
-			<div class="header__buttons">
-				<button class="button button_border">download cv</button>
-				<button class="button button_color">contact me</button>
+			<div class="dropdown">
+				<button class="button" id="header__button-call">contact me</button>
+				<button class="button header__button-cv">download cv</button>
+			</div> 
+			<div class="modal " id="header__modal">
+				<div class="modal__content">
+					<button class ="modal__close-button"></button>
+					<p>Call me <a href="tel:+79831013668" class="phone-big home-callvack__phone" title="Call">+79831013668</a></p>
+					<p>Write me <a href="mailto:zubkovigor@mail.ru" class="phone-big home-callvack__phone" title="Call">zubkovigor@mail.ru</a></p>
+					
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="layout-2-column">
-		<div class="container">
-
-			<div class="content__left">
-				<div class="skills">
-					<h2>Soft skills</h2>
-						<ul class="skills__soft">
-							<li>Stress resistance</li>
-						<li>Motivation</li>
-						<li>A team player</li>
-						<li>Communication skills</li>
-					</ul>
-				<h2>Hard skills</h2>
-					<span class="ico ico_soft">
-						<span class="figma"></span>
-						<span class="sscode"></span>
-						<span class="git"></span>
-						<span class="sass"></span>
-					</span>
-			</div>
+</header>
+<div class="skills">
+	<div class="container">
+		<div class="soft__skills">
+			<a href=""><img src="/images/SVG/softs/figma-svgrepo-com.svg" alt="" class="ico__social"></a>
+			<a href=""><img src="/images/SVG/softs/file_type_git_icon_130581.svg" alt="" class="ico__social"></a>
+			<a href=""><img src="/images/SVG/softs/file_type_vscode_icon_130084.svg" alt="" class="ico__social"></a>
+			<a href=""><img src="/images/SVG/softs/react-svgrepo-com.svg" alt="" class="ico__social"></a>
+			<a href=""><img src="/images/SVG/softs/sass-svgrepo-com.svg" alt="" class="ico__social"></a>
 		</div>
+		<div class="hard_skills">
 		
-		<div class="content__right"></div>
-		<div class="summary">
-			<h2>Education</h2>
-				<ul>
-					<li>University degree</li>
-					<li>Rsschooll courses</li>
-				</ul>
-			<h2>Experience</h2>
-				<p><span>2021-to day</span>•	ООО “Сирис” (Сирис,LLC) -  online business automation company.</p>
-				<h3>Achievements</h3>
-					<ul class="achievements">
-						<li>Having joined the company after working in another sphere of activity, I was able to work in Сирис,LLC independently.</li>
-						<li>I developed my basic computer skills to the advanced level.</li>
-						<li>I optimized my workflow to speed up task solutions.</li>
-					</ul>
-			<h2>Project</h2>
-			
 		</div>
 	</div>
-	</div>
+</div>
+<script src="/js/common.js"></script>
 </body>
 </html>
