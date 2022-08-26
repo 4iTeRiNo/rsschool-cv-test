@@ -1,4 +1,3 @@
-
 # Zubkov Igor Konstantinovich(4iTeRiNo)
 Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technical specialist (>1 year) seeking to learn the specialty of a junior JavaScript developer, run great projects and join the developers community. I'm responsible for my job and I strictly follow the given directions.
 
@@ -33,10 +32,12 @@ Let me introduce myself. I'm Igor Zubkov - a 1C and online cash register technic
 ## Project :
 - [Interior-website](https://4iterino.github.io/Interior-sait/): grid, bootstrap 5;
 - [ZubkovIgor-CV]();
+
 ## How to contact me :
 - **Phone** `+79831013668`;
 - **Telegram** [`@Igor0515`](https//t.me/Igor0515);
 - **GitHub** [`4iTeRiNo`](https://github.com/4iTeRiNo);
 - **Facebook** [`Игорь Зубков`](https://www.facebook.com/profile.php?id=100010166471923);
-- **Email** [`ZubkovIgor`](https://e.mail.ru/compose/);
-- **discord** `Igor(4iTeRiNo)`;
+- **Email** [`zubkovigor@mail.ru`](https://e.mail.ru/inbox);
+- **discord** `Igor (4iTeRiNo)`;
+
