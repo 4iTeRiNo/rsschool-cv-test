@@ -1,0 +1,39 @@
+.header {
+	margin-top: 100px;
+	background: $color-background;
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		position: relative;
+	}
+
+	&__title {
+		color: $text;
+		max-width: 680px;
+		text-align: right;
+		
+			h1 {
+				font-size: 32px;
+			font-weight: bold;
+			color: $heading;
+			}
+
+			span {
+				display: block;
+				margin-bottom: 20px;
+			}
+			
+	}
+	&__img {
+		position: relative;
+		// margin-right: 10px;
+
+		img {
+		border-radius: 10px;
+		}
+	}
+}
+
+

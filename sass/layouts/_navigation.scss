@@ -1,0 +1,22 @@
+.navigation {
+	display: block;
+	margin-top: 25px;
+
+		&__cosial {
+			display: flex;
+			justify-content: center;
+		}
+}
+.ico {
+
+	&__social {
+		margin-right: 40px;
+		cursor: pointer;
+
+}
+}
+.dropdown {
+	display: flex;
+	justify-content: center;
+	margin-right: 83px;
+}
