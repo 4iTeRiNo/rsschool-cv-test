@@ -1,16 +1,18 @@
 // base
 @import "base/base";
 @import "base/reset";
-@import "base/buttons";
 
 // abstract
 @import "abstract/constants";
 // @import "abstract/mixins";
 
-@import "components/round";
+@import "components/cover";
+@import "components/buttons";
+@import "components/modal";
 
 // Layout
 @import "layouts/header";
+@import "layouts/project";
 // @import "layouts/logo";
 @import "layouts/navigation";
 @import "layouts/skills";

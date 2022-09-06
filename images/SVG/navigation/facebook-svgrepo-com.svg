@@ -2,7 +2,7 @@
 	 viewBox="0 0 310 310" width="40px" height="40px" xml:space="preserve">
  <style>
 	.ico{
-			fill: rgba(36, 180, 126, 1);
+			fill: rgb(13, 101, 4);
 			margin-rigth:10px;
 	}
 </style>
