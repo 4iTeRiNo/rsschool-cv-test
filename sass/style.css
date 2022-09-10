@@ -397,26 +397,9 @@ textarea {
   border-radius: 10px;
 }
 
-.skills__head-name::after {
-  content: "";
-  width: 10%;
-  display: inline-block;
-  padding: 10px;
-  top: -8px;
-  left: 0;
-  right: 0;
-  bottom: -10px;
-  margin: 0 auto;
-  position: absolute;
-  border-radius: 10px;
-  background: rgba(41, 187, 5, 0.26);
-  box-shadow: rgb(36, 180, 126) 5px 5px, rgba(39, 180, 110, 0.3) 10px 10px, rgba(0, 214, 107, 0.2) 15px 15px, rgba(43, 182, 9, 0.1) 20px 20px, rgba(34, 134, 9, 0.05) 25px 25px;
-}
-
 .skills__name::after {
   content: "";
   width: 100%;
-  display: inline-block;
   top: -8px;
   left: 0;
   right: 0;
@@ -563,9 +546,72 @@ textarea {
   margin-bottom: 100px;
 }
 
+.project__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project__wrapper h3 {
+  width: 200px;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+}
+
+.experience {
+  margin-bottom: 30px;
+}
+
+.experience__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.experience__colum {
+  display: block;
+  padding-bottom: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.experience__desc {
+  padding-top: 10px;
+  font-size: 19.4px;
+}
+
+.experience__colum-list h3 {
+  font-size: 26px;
+  color: rgb(224, 224, 224);
+  line-height: 1.4em;
+}
+
+.education__desc {
+  font-size: 23.5px;
+  line-height: 1.7em;
+  color: rgb(224, 224, 224);
+}
+
+.education__desc span {
+  color: orange;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.description-text {
+  color: rgb(224, 224, 224);
+  font-size: 19.5px;
+  line-height: 1.2em;
+}
+
 .navigation {
   display: block;
   margin-top: 25px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(165, 164, 164, 0.37);
 }
 .navigation__cosial {
   display: flex;
@@ -586,34 +632,35 @@ textarea {
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-.hard__skills-ico {
+.skills-ico {
   display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 300px;
 }
 
-.hard__skills-ico .ico__left {
+.skills-ico .ico__left {
   margin-left: -50px;
 }
 
-.hard__skills-ico .ico__right {
+.skills-ico .ico__right {
   margin-left: 100px;
 }
 
 .skills__wrapper {
   display: flex;
   justify-content: space-around;
+  flex-direction: row-reverse;
+  margin-right: 50px;
 }
 
 .skills__name {
   color: rgb(224, 224, 224);
   font-size: 20px;
   text-transform: uppercase;
-  margin-bottom: 50px;
   font-weight: bold;
   position: relative;
   text-align: center;
@@ -625,35 +672,37 @@ textarea {
 
 .soft__skills-list {
   color: rgb(224, 224, 224);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
 }
 
 .soft__skills-colum {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .soft__skills-desc {
-  font-size: 30px;
+  font-size: 23.5px;
   margin-bottom: 15px;
-  border-bottom: 1px solid rgba(65, 61, 55, 0.466);
+  width: 300px;
 }
 
-.soft__skills-desc::after {
-  content: "";
-  bottom: 0;
-  width: 100%;
-  height: 2px;
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
-.desc__left {
-  margin-left: -130px;
+.footer__desc {
+  margin-bottom: 30px;
+  padding: 10px;
+  border-top: 1px solid rgba(165, 164, 164, 0.37);
+}
+.footer__desc p {
+  color: rgb(224, 224, 224);
+  font-size: 23.5px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
