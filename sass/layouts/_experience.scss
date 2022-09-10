@@ -1,0 +1,55 @@
+.experience {
+	margin-bottom: 30px;
+}
+.experience__wrapper {
+	display: flex;
+	justify-content: space-evenly;
+}
+.experience__colum {
+	display: block;
+	padding-bottom: 20px;
+	width: 300px;
+	text-align: left;
+	position: relative;
+}
+.experience__colum-list {
+	width: 400px;
+}
+
+.experience__desc {
+	padding-top: 10px;
+	font-size: 19.4px;
+}
+.experience__colum-list h3 {
+	font-size: 26px;
+	color: $text;
+	line-height: 1.4em;
+	// text-align: center;
+}
+.experience__colum-list span {
+	font-size: 26px;
+	padding-left: 9px;
+}
+.education__colum {
+	width: 300px;
+}
+.education__desc {
+	font-size: 23.5px;
+	line-height: 1.7em;
+	color: $text;
+	font-weight: bold;
+
+	text-align: center;
+}
+.education__desc span {
+	color: orange;
+	font-size: 23.5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-left: 0;
+}
+.description-text {
+	color: $text;
+	font-size: 19.5px;
+	line-height: 1.2em;
+}
