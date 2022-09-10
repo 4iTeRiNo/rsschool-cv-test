@@ -552,7 +552,7 @@ textarea {
   align-items: center;
 }
 .project__wrapper h3 {
-  width: 200px;
+  width: 300px;
 }
 
 .app {
@@ -572,8 +572,13 @@ textarea {
 .experience__colum {
   display: block;
   padding-bottom: 20px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+}
+
+.experience__colum-list {
   width: 400px;
-  text-align: center;
 }
 
 .experience__desc {
@@ -587,15 +592,26 @@ textarea {
   line-height: 1.4em;
 }
 
+.experience__colum-list span {
+  font-size: 26px;
+  padding-left: 9px;
+}
+
+.education__colum {
+  width: 300px;
+}
+
 .education__desc {
   font-size: 23.5px;
   line-height: 1.7em;
   color: rgb(224, 224, 224);
+  font-weight: bold;
+  text-align: center;
 }
 
 .education__desc span {
   color: orange;
-  font-size: 20px;
+  font-size: 23.5px;
   text-transform: uppercase;
   font-weight: bold;
   padding-left: 0;
@@ -670,6 +686,11 @@ textarea {
   font-weight: bold;
 }
 
+.soft__skills {
+  position: relative;
+  width: 300px;
+}
+
 .soft__skills-list {
   color: rgb(224, 224, 224);
 }
@@ -678,12 +699,13 @@ textarea {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left;
 }
 
 .soft__skills-desc {
   font-size: 23.5px;
   margin-bottom: 15px;
+  padding-left: 55px;
   width: 300px;
 }
 
