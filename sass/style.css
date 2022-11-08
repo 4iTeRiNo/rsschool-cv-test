@@ -5,6 +5,10 @@ html {
   padding: 20px;
 }
 
+.hidden {
+  overflow: hidden;
+}
+
 .container {
   width: 1190px;
   margin: auto;
@@ -34,7 +38,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19.2px;
   font-family: "Josefin Sans", sans-serif;
   vertical-align: baseline;
   text-decoration: none;
@@ -537,6 +541,9 @@ textarea {
   font-weight: bold;
   color: white;
 }
+.header__title p {
+  font-size: 25px;
+}
 .header__title span {
   display: block;
   margin-bottom: 20px;
@@ -725,6 +732,7 @@ textarea {
   color: rgb(224, 224, 224);
   font-size: 23.5px;
   text-align: center;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,18 +9,18 @@ document.addEventListener('DOMContentLoaded', () => {
 	let closeButton = modal1.getElementsByClassName('modal__close-button');
 
 	// Тег body для запрета прокрутки
-	// let tagBody = document.getElementsByTagName('body');
+	let tagBody = document.getElementsByTagName('body');
 
 		callBackButton.onclick = function (e) {
 			e.preventDefault();
 			modal1.classList.add('modal__active');
-			// tagBody.classList.add('.hidden');
+			tagBody.classList.add('.hidden');
 		}
 
 		closeButton.onclick = function (e) {
 			e.preventDefault();
 			modal1.classList.remove('modal__active');
-			// tagBody.classList.remove('.hidden');
+			tagBody.classList.remove('.hidden');
 		}
 
 		modal1.onmousedown = function (e) {
