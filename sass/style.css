@@ -607,6 +607,9 @@ textarea {
   .header img {
     margin-bottom: 60px;
   }
+  .header__title {
+    text-align: center;
+  }
 }
 
 .container {
@@ -784,7 +787,7 @@ textarea {
 }
 
 .navigation {
-  display: block;
+  display: flex;
   margin-top: 25px;
   padding-bottom: 4px;
   border-bottom: 1px solid rgba(165, 164, 164, 0.37);
@@ -795,7 +798,7 @@ textarea {
 }
 @media (max-width: 428px) {
   .navigation__cosial {
-    display: block;
+    display: flex;
   }
 }
 

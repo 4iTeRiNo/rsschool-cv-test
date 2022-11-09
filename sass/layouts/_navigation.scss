@@ -1,5 +1,5 @@
 .navigation {
-	display: block;
+	display: flex;
 	margin-top: 25px;
 	padding-bottom: 4px;
 	border-bottom: 1px solid  rgba(165, 164, 164, 0.37);
@@ -13,8 +13,9 @@
 
 		@include media-mobile {
 			&__cosial {
-				display: block;
-			}
+				
+			display: flex;
+		}
 		}
 }
 .ico {
