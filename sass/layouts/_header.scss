@@ -2,11 +2,13 @@
 	margin-top: 100px;
 	background: $color-background;
 
+
 	&__wrapper {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		position: relative;
+
 	}
 
 	&__title {
@@ -46,9 +48,18 @@
 			}
 			span {
 				font-size: 15px;
-			}
-		
+			}		
 	}
+
+	@include media-mobile {
+		&__wrapper {
+			display: block;
+		}
+		img {
+			margin-bottom: 60px;
+		}
+	}
+
 }
 
 

@@ -393,6 +393,11 @@ textarea {
     margin-right: 235px;
   }
 }
+@media (max-width: 428px) {
+  .dropdown {
+    margin-right: 20px;
+  }
+}
 
 .modal {
   visibility: hidden;
@@ -595,6 +600,14 @@ textarea {
     font-size: 15px;
   }
 }
+@media (max-width: 428px) {
+  .header__wrapper {
+    display: block;
+  }
+  .header img {
+    margin-bottom: 60px;
+  }
+}
 
 .container {
   width: 1190px;
@@ -779,6 +792,11 @@ textarea {
 .navigation__cosial {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 428px) {
+  .navigation__cosial {
+    display: block;
+  }
 }
 
 .ico__social {

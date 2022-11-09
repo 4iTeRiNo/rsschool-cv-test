@@ -10,9 +10,14 @@
 			justify-content: center;
 
 		}
+
+		@include media-mobile {
+			&__cosial {
+				display: block;
+			}
+		}
 }
 .ico {
-
 
 	&__social {
 		margin-right: 40px;

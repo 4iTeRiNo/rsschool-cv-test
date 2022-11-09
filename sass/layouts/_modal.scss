@@ -7,6 +7,9 @@
 	@include media-tablet {
 		margin-right: 235px;
 	}
+	@include media-mobile {
+		margin-right: 20px;	
+	}
 }
 .modal {
 	visibility: hidden;
