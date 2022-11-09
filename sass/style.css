@@ -393,9 +393,9 @@ textarea {
     margin-right: 235px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .dropdown {
-    margin-right: 20px;
+    margin-right: 0px;
   }
 }
 @media (max-width: 360px) {
@@ -505,16 +505,17 @@ textarea {
     width: 660px;
   }
 }
-@media (max-width: 768px) and (max-width: 428px) {
+@media (max-width: 768px) and (max-width: 400px) {
   .shadow-fitch {
-    width: 428px;
-    padding: 0;
+    width: 380px;
+    margin: auto;
   }
 }
 @media (max-width: 768px) and (max-width: 360px) {
   .shadow-fitch {
     width: 355px;
     padding: 0;
+    margin: auto;
   }
 }
 
@@ -616,7 +617,7 @@ textarea {
     font-size: 15px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .header__wrapper {
     display: block;
   }
@@ -649,15 +650,14 @@ textarea {
     width: 668px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .container {
-    width: 428px;
+    width: 380px;
   }
 }
 @media (max-width: 360px) {
   .container {
-    width: 355px;
-    margin: auto;
+    width: 350px;
   }
 }
 
@@ -673,10 +673,11 @@ textarea {
 .project__wrapper h3 {
   width: 300px;
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .project__wrapper {
-    width: 266px;
-    margin-left: 40px;
+    width: 180px;
+    display: grid;
+    margin: auto;
   }
   .project__wrapper .skills__name {
     width: 150px;
@@ -691,14 +692,16 @@ textarea {
 .experience {
   margin-bottom: 30px;
 }
+
 .experience__wrapper {
   display: flex;
   justify-content: space-evenly;
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .experience__wrapper {
-    display: block;
-    margin-left: 40px;
+    width: 380px;
+    display: grid;
+    margin: auto;
   }
 }
 
@@ -717,6 +720,11 @@ textarea {
     width: 150px;
     margin: auto;
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .experience__colum {
+    width: 180px;
   }
 }
 
@@ -769,13 +777,12 @@ textarea {
     width: 250px;
   }
 }
-@media (max-width: 768px) and (max-width: 428px) {
+@media (max-width: 768px) and (max-width: 400px) {
   .education__colum {
-    width: 266px;
+    width: 180px;
   }
   .education__colum .skills__name {
     width: 150px;
-    margin: auto;
     margin-bottom: 40px;
   }
   .education__colum .education__desc {
@@ -795,6 +802,11 @@ textarea {
     font-size: 19;
   }
 }
+@media (max-width: 400px) {
+  .education__desc {
+    font-size: 15px;
+  }
+}
 
 .education__desc span {
   color: orange;
@@ -808,6 +820,11 @@ textarea {
     font-size: 20px;
   }
 }
+@media (max-width: 400px) {
+  .education__desc span {
+    font-size: 17px;
+  }
+}
 
 .description-text {
   color: rgb(224, 224, 224);
@@ -817,6 +834,11 @@ textarea {
 @media (max-width: 768px) {
   .description-text {
     font-size: 19px;
+  }
+}
+@media (max-width: 400px) {
+  .description-text {
+    font-size: 15px;
   }
 }
 
@@ -830,7 +852,7 @@ textarea {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .navigation__cosial {
     display: flex;
   }
@@ -860,30 +882,18 @@ textarea {
   margin-top: 100px;
   margin-bottom: 60px;
 }
-@media (max-width: 768px) {
-  .skills {
-    padding: 0 10px;
-  }
-}
-@media (max-width: 428px) {
-  .skills {
-    margin-left: 100px;
-  }
-}
-@media (max-width: 360px) {
-  .skills {
-    margin-left: 70px;
-  }
-}
-
 .hard__skills {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column;
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
+  .hard__skills {
+    width: 180px;
+  }
   .hard__skills .skills__name {
+    width: 150px;
     margin-bottom: 40px;
   }
 }
@@ -901,8 +911,9 @@ textarea {
     height: 170px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .skills-ico {
+    width: 150px;
     margin-bottom: 30px;
   }
 }
@@ -923,12 +934,12 @@ textarea {
 }
 @media (max-width: 768px) {
   .skills__wrapper {
-    margin-right: 60px;
+    margin-right: 0px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .skills__wrapper {
-    display: block;
+    display: grid;
     margin-right: 0px;
   }
 }
@@ -951,6 +962,11 @@ textarea {
     font-size: 17px;
   }
 }
+@media (max-width: 400px) {
+  .skills__name {
+    display: block;
+  }
+}
 
 .soft__skills {
   position: relative;
@@ -961,7 +977,10 @@ textarea {
     width: 180px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
+  .soft__skills {
+    width: 150px;
+  }
   .soft__skills .skills__name {
     margin-bottom: 40px;
   }
@@ -1004,7 +1023,7 @@ textarea {
     width: 180px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 400px) {
   .technologies {
     margin-bottom: 20px;
   }

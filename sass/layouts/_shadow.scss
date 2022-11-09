@@ -8,16 +8,17 @@
 			width: 660px;
 			
 			@include media-mobile {
-				width: 428px;
-				padding: 0;
+				width: 380px;
 				margin: auto;
-
+				
+				// display: none;
 			}
 
 			@include media-mobile_small {
 				width: 355px;
 				padding: 0;
 				margin: auto;
+				// display: none;
 
 			}
 	}
