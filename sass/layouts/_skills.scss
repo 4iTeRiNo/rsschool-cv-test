@@ -1,9 +1,13 @@
 .skills {
 	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 
 	@include media-tablet {
 		padding: 0 10px ;
+	}
+
+	@include media-mobile {
+		margin-left: 100px;
 	}
 }
 .hard__skills {
@@ -11,7 +15,14 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	flex-direction: column;
+
+	@include media-mobile {
+		.skills__name {
+			margin-bottom: 40px;
+		}
+	}
 }
+
 .skills-ico {
 	display: flex;
 	align-items: center;
@@ -22,6 +33,10 @@
 	@include media-tablet {
 		width: 150px;
 		height: 170px;
+	}
+
+	@include media-mobile {
+		margin-bottom: 30px;	
 	}
 }
 .skills-ico .ico__left {
@@ -38,6 +53,11 @@
 
 	@include media-tablet {
 		margin-right: 60px;
+	}
+
+	@include media-mobile {
+		display: block;
+		margin-right: 0px;
 	}
 }
 .skills__name {
@@ -64,6 +84,12 @@
 
 	@include media-tablet {
 		width: 180px;
+	}
+
+	@include media-mobile {
+		.skills__name {
+			margin-bottom: 40px;
+		}	
 	}
 }
 .soft__skills-list {
@@ -100,7 +126,13 @@
 	@include media-tablet {
 		width: 180px
 	}
-		
+
+	@include media-mobile {
+		.skills__name {
+			margin-bottom: 40px;
+		}
+		margin-bottom: 20px;
+	}
 }
 
 

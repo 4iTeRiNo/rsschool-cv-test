@@ -4,7 +4,9 @@
 	
 	@include media-tablet {
 		width: 668px;
-
-		
 	}
+		
+		@include media-mobile {
+			width: 400px;
+		}
 }

@@ -9,6 +9,14 @@
 	 h3 {
 		width: 300px;
 	 }
+
+	 @include media-mobile {
+		.skills__name {
+			width: 150px;
+		}
+		width: 266px;
+		margin-left: 40px;
+	 }
 }
 
 .app {

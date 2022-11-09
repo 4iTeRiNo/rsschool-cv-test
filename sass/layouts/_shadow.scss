@@ -6,6 +6,9 @@
 	
 	@include media-tablet  {
 			width: 660px;
-		
+			
+			@include media-mobile {
+				width: 428px;
+			}
 	}
 }

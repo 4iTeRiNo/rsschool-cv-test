@@ -1,9 +1,18 @@
 .experience {
 	margin-bottom: 30px;
+
+	@include media-mobile {
+	}
 }
 .experience__wrapper {
 	display: flex;
 	justify-content: space-evenly;
+
+	@include media-mobile {
+		display: block;
+		margin-left: 40px;
+	}
+
 }
 .experience__colum {
 	display: block;
@@ -14,13 +23,17 @@
 
 	@include media-tablet {
 		.skills__name {
-			width: 230px;
+			width: 150px;
+			margin: auto;
+			margin-bottom: 40px;
+
 		}
 		width: 266px;
 	}
 }
 .experience__colum-list {
 	width: 400px;
+	margin-bottom: 30px;
 
 	@include media-tablet {
 		li {
@@ -59,9 +72,22 @@
 	@include media-tablet {
 		
 		.skills__name {
-			margin: auto;
-			margin-bottom: 60px;
+			margin-bottom: 30px;
 			width: 250px;
+		}
+
+		@include media-mobile {
+			.skills__name {
+				width: 150px;
+				margin: auto;
+				margin-bottom: 40px;
+
+			}
+			width: 266px;
+
+			.education__desc {
+				text-align: left;
+			}
 		}
 	}
 }
