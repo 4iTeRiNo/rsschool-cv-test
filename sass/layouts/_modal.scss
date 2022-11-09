@@ -8,7 +8,16 @@
 		margin-right: 235px;
 	}
 	@include media-mobile {
-		margin-right: 20px;	
+		margin-right: 20px;
+	}
+	@include media-mobile_small {
+		margin-right: 0;
+		margin-left: 10px;	
+		.button {
+			font-size: 10px;
+		}
+
+
 	}
 }
 .modal {

@@ -9,6 +9,10 @@
 	@include media-mobile {
 		margin-left: 100px;
 	}
+
+	@include media-mobile_small {
+		margin-left: 70px;
+	}
 }
 .hard__skills {
 	display: flex;

@@ -398,6 +398,15 @@ textarea {
     margin-right: 20px;
   }
 }
+@media (max-width: 360px) {
+  .dropdown {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+  .dropdown .button {
+    font-size: 10px;
+  }
+}
 
 .modal {
   visibility: hidden;
@@ -499,6 +508,13 @@ textarea {
 @media (max-width: 768px) and (max-width: 428px) {
   .shadow-fitch {
     width: 428px;
+    padding: 0;
+  }
+}
+@media (max-width: 768px) and (max-width: 360px) {
+  .shadow-fitch {
+    width: 355px;
+    padding: 0;
   }
 }
 
@@ -611,6 +627,18 @@ textarea {
     text-align: center;
   }
 }
+@media (max-width: 360px) {
+  .header h1 {
+    font-size: 20px;
+  }
+  .header p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .header span {
+    font-size: 15px;
+  }
+}
 
 .container {
   width: 1190px;
@@ -623,7 +651,13 @@ textarea {
 }
 @media (max-width: 428px) {
   .container {
-    width: 400px;
+    width: 428px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    width: 355px;
+    margin: auto;
   }
 }
 
@@ -812,6 +846,14 @@ textarea {
   .ico .ico {
     width: 20px;
   }
+  .ico__social {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .ico__social {
+    margin-right: 20px;
+  }
 }
 
 .skills {
@@ -826,6 +868,11 @@ textarea {
 @media (max-width: 428px) {
   .skills {
     margin-left: 100px;
+  }
+}
+@media (max-width: 360px) {
+  .skills {
+    margin-left: 70px;
   }
 }
 

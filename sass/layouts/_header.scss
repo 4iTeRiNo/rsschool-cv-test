@@ -63,6 +63,21 @@
 		}
 	}
 
+	@include media-mobile_small {
+	
+		h1 {
+			font-size: 20px;
+		}
+		p {
+			font-size: 15px;
+			margin-bottom: 30px;
+
+		}
+		span {
+			font-size: 15px;
+		}		
+	}
+
 }
 
 

@@ -31,6 +31,17 @@
 		.ico {
 			width: 20px;
 		}
+		&__social {
+			margin-right: 30px;
+	
+		}
+	}
+
+	@include media-mobile_small {
+		&__social {
+			margin-right: 20px;
+	
+		}
 	}
 }
 
