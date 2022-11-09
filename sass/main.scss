@@ -6,12 +6,16 @@
 @import "abstract/constants";
 // @import "abstract/mixins";
 
-@import "components/cover";
 @import "components/buttons";
-@import "components/modal";
+@import "components/mixins";
 
 // Layout
+@import "layouts/modal";
+@import "layouts/media";
+@import "layouts/shadow";
+@import "layouts/cover";
 @import "layouts/header";
+@import "layouts/container";
 @import "layouts/project";
 @import "layouts/experience";
 @import "layouts/navigation";

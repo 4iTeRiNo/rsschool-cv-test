@@ -13,9 +13,18 @@
 }
 .ico {
 
+
 	&__social {
 		margin-right: 40px;
 
+	}
+
+	@include media-tablet {
+		max-width: 488px;
+
+		.ico {
+			width: 20px;
+		}
 	}
 }
 

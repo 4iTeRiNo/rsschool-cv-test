@@ -1,0 +1,10 @@
+.container{
+	width: 1190px;
+	margin: auto;
+	
+	@include media-tablet {
+		width: 668px;
+
+		
+	}
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body,
 html {
   background: #181818;
@@ -7,18 +8,6 @@ html {
 
 .hidden {
   overflow: hidden;
-}
-
-.container {
-  width: 1190px;
-  margin: auto;
-}
-
-.shadow-fitch {
-  width: 1140px;
-  margin: auto;
-  padding: 10px 10px 0 10px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -38,14 +27,14 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-weight: 400;
-  font-size: 19.2px;
+  font-size: 19px;
   font-family: "Josefin Sans", sans-serif;
   vertical-align: baseline;
   text-decoration: none;
   line-height: 27px;
 }
 
-/* make sure to set some focus styles for accessibility */
+/* обязательно установите некоторые стили фокусировки для обеспечения доступности */
 :focus {
   outline: 0;
 }
@@ -102,7 +91,7 @@ textarea {
 }
 
 /**
- * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ * Правильное отображение встроенного блока, не определенное в IE 6/7/8/9 и Firefox 3.
  */
 audio,
 canvas,
@@ -114,8 +103,8 @@ video {
 }
 
 /**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
+ * Запретите современным браузерам отображать "аудио` без элементов управления.
+ * Удалите лишнюю высоту на устройствах iOS 5.
  */
 audio:not([controls]) {
   display: none;
@@ -123,18 +112,18 @@ audio:not([controls]) {
 }
 
 /**
- * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
- * Known issue: no IE 6 support.
+ * Стиль адреса отсутствует в IE 7/8/9, Firefox 3 и Safari 4.
+ * Известная проблема: нет поддержки IE6.
  */
 [hidden] {
   display: none;
 }
 
 /**
- * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
- *    `em` units.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
+ * 1. Исправьте странное изменение размера текста в IE6 / 7, когда размер шрифта тела задан с помощью
+ * единицы измерения `em`.
+ * 2.Запретить настройку размера текста iOS после изменения ориентации, не отключая
+ * пользовательское масштабирование.
  */
 html {
   font-weight: 300;
@@ -144,14 +133,14 @@ html {
 }
 
 /**
- * Address `outline` inconsistency between Chrome and other browsers.
+ * Устраните несоответствие `контура` между Chrome и другими браузерами.
  */
 a:focus {
   outline: thin dotted;
 }
 
 /**
- * Improve readability when focused and also mouse hovered in all browsers.
+ * Улучшите читаемость при фокусировке, а также при наведении курсора мыши во всех браузерах.
  */
 a:active,
 a:hover {
@@ -159,8 +148,8 @@ a:hover {
 }
 
 /**
- * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
- * 2. Improve image quality when scaled in IE 7.
+ * 1. Удалите границу внутри элемента `a` в IE 6/7/8/9 и Firefox 3.
+ * 2. Улучшите качество изображения при масштабировании в IE 7.
  */
 img {
   border: 0; /* 1 */
@@ -168,21 +157,21 @@ img {
 }
 
 /**
- * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ * Поле адреса отсутствует в IE 6/7/8/9, Safari 5 и Opera 11.
  */
 figure {
   margin: 0;
 }
 
 /**
- * Correct margin displayed oddly in IE 6/7.
+ * Правильное поле странно отображается в IE6/7.
  */
 form {
   margin: 0;
 }
 
 /**
- * Define consistent border, margin, and padding.
+ * Определите согласованную границу, поля и отступы.
  */
 fieldset {
   border: 1px solid #c0c0c0;
@@ -380,41 +369,6 @@ textarea {
   padding: 0.2em 0;
 }
 
-.header__img {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  max-width: 300px;
-  z-index: 1;
-}
-
-.header__img::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: -15px;
-  left: -100px;
-  background-color: rgba(41, 187, 5, 0.26);
-  z-index: -1;
-  opacity: 0.24;
-  border-radius: 10px;
-}
-
-.skills__name::after {
-  content: "";
-  width: 100%;
-  top: -8px;
-  left: 0;
-  right: 0;
-  bottom: -10px;
-  margin: 0 auto;
-  position: absolute;
-  border-radius: 10px;
-  background: rgba(41, 187, 5, 0.26);
-  box-shadow: rgb(36, 180, 126) 5px 5px, rgba(39, 180, 110, 0.3) 10px 10px, rgba(0, 214, 107, 0.2) 15px 15px, rgba(43, 182, 9, 0.1) 20px 20px, rgba(34, 134, 9, 0.05) 25px 25px;
-}
-
 .button {
   background: rgba(41, 187, 5, 0.26);
   font-size: 14px;
@@ -433,6 +387,11 @@ textarea {
   display: flex;
   justify-content: center;
   margin-right: 83px;
+}
+@media (max-width: 768px) {
+  .dropdown {
+    margin-right: 235px;
+  }
 }
 
 .modal {
@@ -521,6 +480,74 @@ textarea {
   overflow: hidden;
 }
 
+.shadow-fitch {
+  width: 1140px;
+  margin: auto;
+  padding: 10px 10px 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+@media (max-width: 768px) {
+  .shadow-fitch {
+    width: 660px;
+  }
+}
+
+.header__img {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  z-index: 1;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .header__img img {
+    padding-left: 130px;
+    width: 160px;
+    position: relative;
+    display: inline-block;
+  }
+}
+
+.header__img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -15px;
+  left: -100px;
+  background-color: rgba(41, 187, 5, 0.26);
+  z-index: -1;
+  opacity: 0.24;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .header__img::before {
+    width: 70%;
+    top: -15px;
+    left: 81px;
+  }
+}
+
+.skills__name::after {
+  content: "";
+  width: 100%;
+  top: -8px;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  margin: 0 auto;
+  position: absolute;
+  border-radius: 10px;
+  background: rgba(41, 187, 5, 0.26);
+  box-shadow: rgb(36, 180, 126) 5px 5px, rgba(39, 180, 110, 0.3) 10px 10px, rgba(0, 214, 107, 0.2) 15px 15px, rgba(43, 182, 9, 0.1) 20px 20px, rgba(34, 134, 9, 0.05) 25px 25px;
+}
+@media (max-width: 768px) {
+  .skills__name::after {
+    width: 100%;
+  }
+}
+
 .header {
   margin-top: 100px;
   background: rgb(24, 24, 24);
@@ -542,11 +569,36 @@ textarea {
   color: white;
 }
 .header__title p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .header__title span {
   display: block;
   margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .header__title {
+    max-width: 370px;
+  }
+  .header h1 {
+    font-size: 25px;
+  }
+  .header p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .header span {
+    font-size: 15px;
+  }
+}
+
+.container {
+  width: 1190px;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 668px;
+  }
 }
 
 .project {
@@ -583,9 +635,25 @@ textarea {
   text-align: left;
   position: relative;
 }
+@media (max-width: 768px) {
+  .experience__colum {
+    width: 266px;
+  }
+  .experience__colum .skills__name {
+    width: 230px;
+  }
+}
 
 .experience__colum-list {
   width: 400px;
+}
+@media (max-width: 768px) {
+  .experience__colum-list {
+    width: 266px;
+  }
+  .experience__colum-list li {
+    font-size: 15px;
+  }
 }
 
 .experience__desc {
@@ -598,14 +666,32 @@ textarea {
   color: rgb(224, 224, 224);
   line-height: 1.4em;
 }
+@media (max-width: 768px) {
+  .experience__colum-list h3 {
+    font-size: 19px;
+  }
+}
 
 .experience__colum-list span {
   font-size: 26px;
   padding-left: 9px;
 }
+@media (max-width: 768px) {
+  .experience__colum-list span {
+    font-size: 22px;
+    padding-left: 5px;
+  }
+}
 
 .education__colum {
   width: 300px;
+}
+@media (max-width: 768px) {
+  .education__colum .skills__name {
+    margin: auto;
+    margin-bottom: 60px;
+    width: 250px;
+  }
 }
 
 .education__desc {
@@ -615,6 +701,11 @@ textarea {
   font-weight: bold;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .education__desc {
+    font-size: 19;
+  }
+}
 
 .education__desc span {
   color: orange;
@@ -623,11 +714,21 @@ textarea {
   font-weight: bold;
   padding-left: 0;
 }
+@media (max-width: 768px) {
+  .education__desc span {
+    font-size: 20px;
+  }
+}
 
 .description-text {
   color: rgb(224, 224, 224);
   font-size: 19.5px;
   line-height: 1.2em;
+}
+@media (max-width: 768px) {
+  .description-text {
+    font-size: 19px;
+  }
 }
 
 .navigation {
@@ -644,10 +745,23 @@ textarea {
 .ico__social {
   margin-right: 40px;
 }
+@media (max-width: 768px) {
+  .ico {
+    max-width: 488px;
+  }
+  .ico .ico {
+    width: 20px;
+  }
+}
 
 .skills {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .skills {
+    padding: 0 10px;
+  }
 }
 
 .hard__skills {
@@ -664,6 +778,12 @@ textarea {
   flex-wrap: wrap;
   width: 300px;
 }
+@media (max-width: 768px) {
+  .skills-ico {
+    width: 150px;
+    height: 170px;
+  }
+}
 
 .skills-ico .ico__left {
   margin-left: -50px;
@@ -679,6 +799,11 @@ textarea {
   flex-direction: row-reverse;
   margin-right: 50px;
 }
+@media (max-width: 768px) {
+  .skills__wrapper {
+    margin-right: 60px;
+  }
+}
 
 .skills__name {
   color: rgb(224, 224, 224);
@@ -692,10 +817,21 @@ textarea {
   margin-bottom: 60px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .skills__name {
+    width: 150px;
+    font-size: 17px;
+  }
+}
 
 .soft__skills {
   position: relative;
   width: 300px;
+}
+@media (max-width: 768px) {
+  .soft__skills {
+    width: 180px;
+  }
 }
 
 .soft__skills-list {
@@ -715,12 +851,25 @@ textarea {
   padding-left: 55px;
   width: 300px;
 }
+@media (max-width: 768px) {
+  .soft__skills-desc {
+    font-size: 18.5px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    width: 200px;
+  }
+}
 
 .technologies {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: column;
+}
+@media (max-width: 768px) {
+  .technologies {
+    width: 180px;
+  }
 }
 
 .footer__desc {

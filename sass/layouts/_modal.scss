@@ -3,6 +3,10 @@
 	display: flex;
 	justify-content: center;
 	margin-right: 83px;
+
+	@include media-tablet {
+		margin-right: 235px;
+	}
 }
 .modal {
 	visibility: hidden;

@@ -21,16 +21,39 @@
 			}
 
 			p {
-				font-size: 25px;
+				font-size: 20px;
 			}
 
 			span {
 				display: block;
 				margin-bottom: 20px;
 			}
-			
+		}
+	
+
+	@include media-tablet  {
+		
+			&__title {
+				max-width: 370px;
+			}
+			h1 {
+				font-size: 25px;
+			}
+			p {
+				font-size: 15px;
+				margin-bottom: 20px;
+
+			}
+			span {
+				font-size: 15px;
+			}
+		
 	}
 }
+
+
+
+
 
 
 

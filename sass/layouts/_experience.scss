@@ -11,9 +11,23 @@
 	width: 300px;
 	text-align: left;
 	position: relative;
+
+	@include media-tablet {
+		.skills__name {
+			width: 230px;
+		}
+		width: 266px;
+	}
 }
 .experience__colum-list {
 	width: 400px;
+
+	@include media-tablet {
+		li {
+			font-size: 15px;
+		}
+		width: 266px;
+	}
 }
 
 .experience__desc {
@@ -25,21 +39,42 @@
 	color: $text;
 	line-height: 1.4em;
 	// text-align: center;
+
+	@include media-tablet {
+		font-size: 19px;
+	}
 }
 .experience__colum-list span {
 	font-size: 26px;
 	padding-left: 9px;
+
+	@include media-tablet {
+		font-size: 22px;
+		padding-left: 5px;
+	}
 }
 .education__colum {
 	width: 300px;
+
+	@include media-tablet {
+		
+		.skills__name {
+			margin: auto;
+			margin-bottom: 60px;
+			width: 250px;
+		}
+	}
 }
 .education__desc {
 	font-size: 23.5px;
 	line-height: 1.7em;
 	color: $text;
 	font-weight: bold;
-
 	text-align: center;
+
+	@include media-tablet {
+		font-size: 19;
+	}
 }
 .education__desc span {
 	color: orange;
@@ -47,9 +82,18 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	padding-left: 0;
+
+	@include media-tablet {
+		font-size: 20px;
+	}
 }
 .description-text {
 	color: $text;
 	font-size: 19.5px;
 	line-height: 1.2em;
+
+	@include media-tablet {
+		font-size: 19px;
+		
+	}
 }
