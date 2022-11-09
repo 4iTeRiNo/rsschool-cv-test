@@ -10,12 +10,15 @@
 			@include media-mobile {
 				width: 428px;
 				padding: 0;
+				margin: auto;
 
 			}
 
 			@include media-mobile_small {
 				width: 355px;
 				padding: 0;
+				margin: auto;
+
 			}
 	}
 }
