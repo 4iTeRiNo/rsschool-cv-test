@@ -32,7 +32,8 @@
 		width: 266px;
 	}
 	@include media-mobile {
-
+		text-align: right;
+		position: relative;
 		width: 180px;
 	}
 }

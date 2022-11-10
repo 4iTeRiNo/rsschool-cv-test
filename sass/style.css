@@ -509,6 +509,7 @@ textarea {
   .shadow-fitch {
     width: 380px;
     margin: auto;
+    padding: 0;
   }
 }
 @media (max-width: 768px) and (max-width: 360px) {
@@ -724,6 +725,8 @@ textarea {
 }
 @media (max-width: 400px) {
   .experience__colum {
+    text-align: right;
+    position: relative;
     width: 180px;
   }
 }
@@ -913,17 +916,10 @@ textarea {
 }
 @media (max-width: 400px) {
   .skills-ico {
-    width: 150px;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px;
   }
-}
-
-.skills-ico .ico__left {
-  margin-left: -50px;
-}
-
-.skills-ico .ico__right {
-  margin-left: 100px;
 }
 
 .skills__wrapper {
@@ -979,7 +975,7 @@ textarea {
 }
 @media (max-width: 400px) {
   .soft__skills {
-    width: 150px;
+    width: 300px;
   }
   .soft__skills .skills__name {
     margin-bottom: 40px;
@@ -995,6 +991,12 @@ textarea {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: left;
+}
+@media (max-width: 400px) {
+  .soft__skills-colum {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
 }
 
 .soft__skills-desc {
